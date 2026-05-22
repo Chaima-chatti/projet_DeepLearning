@@ -225,15 +225,7 @@ def main():
             st.caption(info['description'])
             st.markdown("")
     
-    # Zone d'avertissement
-    st.markdown("""
-        <div class="warning-box">
-            <strong>⚠️ Avertissement médical:</strong> Cette application est un outil d'aide à la décision 
-            et ne remplace pas un diagnostic médical professionnel. Consultez toujours un dermatologue 
-            pour un diagnostic définitif.
-        </div>
-    """, unsafe_allow_html=True)
-    
+ 
     # Zone de téléchargement d'image
     st.header("📤 Télécharger une image")
     
